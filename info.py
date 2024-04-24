@@ -131,7 +131,7 @@ URL = environ.get("URL", "https://querulous-hildagard-sonudhaka.koyeb.app/")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', Flase)) # Set True or Flase
+RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or Flase
 
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
