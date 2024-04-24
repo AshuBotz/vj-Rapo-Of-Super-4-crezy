@@ -65,10 +65,10 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'pandawep') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MdiskGroup')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+9JKj2cZJXvsyOGI1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MdiskGroup')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MdiskGroup')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/MdiskGroup')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+d0lcBktNrZY0NDhl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@MdiskGroup') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -131,7 +131,7 @@ URL = environ.get("URL", "https://querulous-hildagard-sonudhaka.koyeb.app/")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or Flase
+RENAME_MODE = bool(environ.get('RENAME_MODE', Flase)) # Set True or Flase
 
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
