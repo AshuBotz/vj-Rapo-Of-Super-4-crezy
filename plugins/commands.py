@@ -56,8 +56,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/vj_bot_disscussion"),
-            InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/vj_bots')
+            InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/+9JKj2cZJXvsyOGI1"),
+            InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/MdiskGroup')
         ],[
             InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
         ]]
@@ -175,7 +175,7 @@ async def start(client, message):
         )
         return
     data = message.command[1]
-    if data.split("-", 1)[0] == "VJ":
+    if data.split("-", 1)[0] == "PANDAWEP":
         user_id = int(data.split("-", 1)[1])
         vj = await referal_add_user(user_id, message.from_user.id)
         if vj and PREMIUM_AND_REFERAL_MODE == True:
@@ -220,7 +220,7 @@ async def start(client, message):
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                 ]]
             reply_markup = InlineKeyboardMarkup(buttons)
-            m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+            m=await message.reply_sticker("CAACAgIAAxkBAAI7tWYqxspoXOhLdwxlLzFw9aiTSBdyAAL0AAOYv4ANDmeLgKmzmdceBA") 
             await asyncio.sleep(1)
             await m.delete()
             await message.reply_photo(
@@ -1524,8 +1524,25 @@ async def plans_cmd_handler(client, message):
     if PREMIUM_AND_REFERAL_MODE == False:
         return 
     btn = [            
-        [InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ʀᴇᴄᴇɪᴘᴛ 🧾", url=f"https://t.me/{OWNER_USERNAME}")],
-        [InlineKeyboardButton("⚠️ ᴄʟᴏsᴇ / ᴅᴇʟᴇᴛᴇ ⚠️", callback_data="close_data")]
+        [
+            InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ʀᴇᴄᴇɪᴘᴛ 🧾", url=f"https://t.me/{OWNER_USERNAME}")
+        ],
+        [
+            InlineKeyboardButton("30ʀs - 1 ᴍᴏɴᴛʜs", url="https://u.pandawep.in/?upi=sonudhakad778%40ybl&name=Super%204%20Crezy&amount=30&description=1%20months")
+        ],
+          [
+            InlineKeyboardButton("50ʀs - 3 ᴍᴏɴᴛʜs", url="https://u.pandawep.in/?upi=sonudhakad778%40ybl&name=Super%204%20Crezy&amount=50&description=2%20months%20")
+        ],
+          [
+            InlineKeyboardButton("120ʀs - 6 ᴍᴏɴᴛʜs", url="https://u.pandawep.in/?upi=sonudhakad778%40ybl&name=Super%204%20Crezy&amount=120&description=6%20months")
+        ],
+          [
+            InlineKeyboardButton("220ʀs - 1ʏᴇᴀʀ", url="https://u.pandawep.in/?upi=sonudhakad778%40ybl&name=Super%204%20Crezy&amount=220&description=1%20year")
+        ],
+        [
+            InlineKeyboardButton("⚠️ ᴄʟᴏsᴇ / ᴅᴇʟᴇᴛᴇ ⚠️", callback_data="close_data")
+        ]
+
     ]
     reply_markup = InlineKeyboardMarkup(btn)
     await message.reply_photo(
