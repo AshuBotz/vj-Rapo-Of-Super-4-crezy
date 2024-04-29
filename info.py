@@ -50,7 +50,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bharathkalladi38:lXiNq3bhhMtZATbU@cluster0.xjd7tbt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://superhitcinema60:49UaVkrTzPNx7wfl@cluster0.b4we7eu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
@@ -65,9 +65,9 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Super4crazy_bot') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+9JKj2cZJXvsyOGI1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Hacwcxg0a3wwMDI9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/super4crazy')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MdiskGroup')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+d0lcBktNrZY0NDhl')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+d0lcBktNrZY0NDhl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@MdiskGroup') # Support Chat Link Without https:// or @
 
