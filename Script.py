@@ -12,10 +12,10 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/PandaWep>PandaWep</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Super4crazy>Super4crazy </a>
 ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
 ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/AshutoshGoswami24'>Ashu</a> 
-<a href='https://ashubotz.github.io/Pay/bot/filetourldonte.html'>Donate For Developers</a> 
+‣ channal : @Super4crazy 
  
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
