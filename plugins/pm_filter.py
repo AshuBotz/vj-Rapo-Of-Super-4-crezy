@@ -36,6 +36,9 @@ from database.gfilters_mdb import (
     get_gfilters,
     del_allg
 )
+import os
+req_channel = int(os.environ.get('UPDATE CHANNEL','100209055998'))
+
 import logging
 from urllib.parse import quote_plus
 from TechVJ.util.file_properties import get_name, get_hash, get_media_file_size
